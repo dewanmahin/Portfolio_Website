@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>D1 — Portfolio</title>
+  <meta name="description" content="Personal portfolio — D1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">D1</div>
+        <div>
+          <h1>Dewan Mahin Chowdhury</h1>
+          <div class="muted small">Software Engineer • Competitive Programmer</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <h2 id="hero-title">Hi — I'm Mahin. I build clean, reliable software.</h2>
+          <p class="lead">I'm a software engineering student and competitive programming enthusiast. I enjoy building projects that solve real problems and learning new algorithms.</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Hire me</a>
+            <a class="btn secondary" href="#skills">My skills</a>
+          </div>
+        </div>
+        <aside class="hero-aside" aria-label="Quick stats">
+          <div class="muted small">Projects</div>
+          <div class="stat">12+</div>
+          <p class="muted">Open-source contributions • University projects</p>
+        </aside>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h3 id="about-title">About Me</h3>
+        <div class="about">
+          <div>
+            <p class="bio">Hello — I'm Mahin, a final-year Software Engineering student at Metropolitan University. I love solving algorithmic problems, writing clean code, and turning ideas into working software. When I'm not coding I read tech articles, practice competitive programming, and take care of my cat, Villan.</p>
+
+            <ul class="muted">
+              <li>Experienced with Java, C++, and web technologies</li>
+              <li>Strong foundation in data structures &amp; algorithms</li>
+              <li>Comfortable with Git, unit testing, and code reviews</li>
+            </ul>
+          </div>
+
+          <div class="about-aside">
+            <div class="profile-circle"><img src="D1.jpg" alt="" width="150" height="150"></div>
+            <p class="muted small">Based in Bangladesh • Available for remote work</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <h3 id="skills-title">Skills</h3>
+        <div class="skills-grid">
+          <div class="skill s-html"><div class="skill-name">HTML</div><div class="bar"><i></i></div><div class="skill-percent">92%</div></div>
+          <div class="skill s-css"><div class="skill-name">CSS</div><div class="bar"><i></i></div><div class="skill-percent">88%</div></div>
+          <div class="skill s-js"><div class="skill-name">C++ / Java</div><div class="bar"><i></i></div><div class="skill-percent">78%</div></div>
+          <div class="skill s-java"><div class="skill-name">Java (OOP)</div><div class="bar"><i></i></div><div class="skill-percent">68%</div></div>
+          <div class="skill s-cp"><div class="skill-name">Competitive Programming</div><div class="bar"><i></i></div><div class="skill-percent">82%</div></div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h3 id="contact-title">Contact</h3>
+        <div class="contact-grid">
+          <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Your email" required />
+            <input type="text" name="subject" placeholder="Subject" />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button class="btn" type="submit">Send message</button>
+          </form>
+
+          <div class="contact-card">
+            <div class="muted strong">Get in touch</div>
+            <div class="muted">Email: <a href="mailto:your.email@example.com">dewanmahinchy@gmail.com</a></div>
+            <div class="muted">Phone: +880 1752555005</div>
+            <div class="muted">Location: Sylhet, Bangladesh</div>
+
+            <div class="social">
+              <div class="muted strong">Social</div>
+              <div class="muted links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© 2025 Bidal Chowdhury</div>
+      <div class="muted">Built with HTML &amp; CSS • Responsive</div>
+    </footer>
+  </div>
+</body>
+</html>
